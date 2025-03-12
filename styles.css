@@ -1,0 +1,132 @@
+/* ...existing code... */
+
+/* Style for the navigation menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none ;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    gap: 80px;
+    font-size: 25;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the hero section */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #95f1b9;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Style for the about section */
+#about {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1em;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style for the blog section */
+#blog {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#blog h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.post {
+    flex: 1 1 calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+.post:hover {
+    transform: translateY(-10px);
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+}
+
+.post h3 {
+    margin: 15px;
+}
+
+.post p {
+    margin: 15px;
+}
+
+.read-more {
+    display: block;
+    margin: 15px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* Style for the footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+
